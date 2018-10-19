@@ -14,6 +14,8 @@
 		C6843CF32179E9B90082AED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6843CF12179E9B90082AED6 /* LaunchScreen.storyboard */; };
 		C6843CFE2179E9B90082AED6 /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6843CFD2179E9B90082AED6 /* TodoAppTests.swift */; };
 		C6843D092179E9B90082AED6 /* TodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6843D082179E9B90082AED6 /* TodoAppUITests.swift */; };
+		C6843D172179EC490082AED6 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6843D162179EC490082AED6 /* TaskCell.swift */; };
+		C6843D19217A00AE0082AED6 /* AddTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6843D18217A00AE0082AED6 /* AddTaskController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C6843D042179E9B90082AED6 /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6843D082179E9B90082AED6 /* TodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppUITests.swift; sourceTree = "<group>"; };
 		C6843D0A2179E9B90082AED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6843D162179EC490082AED6 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		C6843D18217A00AE0082AED6 /* AddTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				C6843CE82179E9B70082AED6 /* AppDelegate.swift */,
 				C6843CEA2179E9B70082AED6 /* ViewController.swift */,
+				C6843D18217A00AE0082AED6 /* AddTaskController.swift */,
 				C6843CEC2179E9B70082AED6 /* Main.storyboard */,
+				C6843D162179EC490082AED6 /* TaskCell.swift */,
 				C6843CEF2179E9B90082AED6 /* Assets.xcassets */,
 				C6843CF12179E9B90082AED6 /* LaunchScreen.storyboard */,
 				C6843CF42179E9B90082AED6 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6843CEB2179E9B70082AED6 /* ViewController.swift in Sources */,
+				C6843D172179EC490082AED6 /* TaskCell.swift in Sources */,
+				C6843D19217A00AE0082AED6 /* AddTaskController.swift in Sources */,
 				C6843CE92179E9B70082AED6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFT5YP7PWV;
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFT5YP7PWV;
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
